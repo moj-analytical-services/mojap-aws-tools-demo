@@ -1,0 +1,4 @@
+awswrangler==1.10.1
+git+https://github.com/moj-analytical-services/mojap-metadata@glue-converter
+git+https://github.com/moj-analytical-services/mojap-arrow-pd-parser.git
+jupyterlab
