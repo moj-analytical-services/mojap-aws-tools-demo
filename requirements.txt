@@ -1,6 +1,6 @@
 appnope==0.1.2
 argon2-cffi==20.1.0
-arrow-pd-parser @ git+https://github.com/moj-analytical-services/mojap-arrow-pd-parser.git@d4f209a5ade5ece42f51f590ac9cbad837b82185
+arrow-pd-parser @ git+https://github.com/moj-analytical-services/mojap-arrow-pd-parser@3642e25a680abbaaeec93d624fa0647b7667d9e3
 async-generator==1.10
 attrs==20.3.0
 awswrangler==1.10.1
@@ -31,7 +31,7 @@ jupyterlab-pygments==0.1.2
 jupyterlab-server==1.2.0
 MarkupSafe==1.1.1
 mistune==0.8.4
-mojap-metadata @ git+https://github.com/moj-analytical-services/mojap-metadata@fe0a26441555f1636620cdb0548d0c160cbc9363
+mojap-metadata @ git+https://github.com/moj-analytical-services/mojap-metadata@86d4e885f35796ac64f03db9d175ffdc38e0e79c
 nbclient==0.5.1
 nbconvert==6.0.7
 nbformat==5.0.8
