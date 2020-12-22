@@ -1,4 +1,4 @@
 awswrangler==1.10.1
-mojap-metadata[arrow] @ git+https://github.com/moj-analytical-services/mojap-metadata@dev
-arrow-pd-parser @ git+https://github.com/moj-analytical-services/mojap-arrow-pd-parser@main
+mojap-metadata[arrow] @ git+https://github.com/moj-analytical-services/mojap-metadata@v0.1.0
+arrow-pd-parser @ git+https://github.com/moj-analytical-services/mojap-arrow-pd-parser@v0.1.0
 jupyterlab
