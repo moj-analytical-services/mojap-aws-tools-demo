@@ -9,8 +9,8 @@ Babel==2.9.0
 backcall==0.2.0
 beautifulsoup4==4.9.3
 bleach==3.2.1
-boto3==1.16.51
-botocore==1.19.51
+boto3==1.16.54
+botocore==1.19.54
 certifi==2020.12.5
 cffi==1.14.4
 chardet==4.0.0
@@ -21,7 +21,7 @@ et-xmlfile==1.0.1
 etl-manager==7.4.0
 fsspec==0.8.5
 idna==2.10
-ipykernel==5.4.2
+ipykernel==5.4.3
 ipython==7.19.0
 ipython-genutils==0.2.0
 jdcal==1.4.1
@@ -33,19 +33,19 @@ jsonschema==3.2.0
 jupyter-client==6.1.11
 jupyter-core==4.7.0
 jupyter-server==1.2.1
-jupyterlab==3.0.3
+jupyterlab==3.0.4
 jupyterlab-pygments==0.1.2
-jupyterlab-server==2.1.1
+jupyterlab-server==2.1.2
 lxml==4.6.2
 MarkupSafe==1.1.1
 mistune==0.8.4
-mojap-metadata @ git+https://github.com/moj-analytical-services/mojap-metadata@29f7d72f6d88263c72bc5da8afc3fb28030ea5e2
+mojap-metadata @ git+https://github.com/moj-analytical-services/mojap-metadata@aba37c8ae9f95a37d8f65a8ce0b1be195c04010a
 nbclassic==0.2.6
 nbclient==0.5.1
 nbconvert==6.0.7
-nbformat==5.0.8
+nbformat==5.1.0
 nest-asyncio==1.4.3
-notebook==6.1.6
+notebook==6.2.0
 numpy==1.19.5
 openpyxl==3.0.5
 packaging==20.8
@@ -61,19 +61,19 @@ prompt-toolkit==3.0.10
 ptyprocess==0.7.0
 pyarrow==2.0.0
 pycparser==2.20
-Pygments==2.7.3
+Pygments==2.7.4
 PyMySQL==1.0.2
 pyparsing==2.4.7
 pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2020.5
 PyYAML==5.3.1
-pyzmq==20.0.0
+pyzmq==21.0.0
 redshift-connector==2.0.872
 regex==2020.11.13
 requests==2.25.1
 s3fs==0.4.2
-s3transfer==0.3.3
+s3transfer==0.3.4
 scramp==1.2.0
 Send2Trash==1.5.0
 six==1.15.0
