@@ -31,6 +31,12 @@ Get some data, create a database add that data as a table in a database. Get som
 Great place to start if you don't know what Athena, Glue, S3 are and how they fit together with our tools. Note what we run through here is the easiest way to put stuff together (it is not as airtight as using some of the other tools we use). However, it will get you most of the way there, so don't worry about it.
 
 
+## Using Athena SQL to maintain and update databases
+
+[/creating_and_maintaining_database_tables_in_athena.ipynb]
+
+How to create new databases, add tables to a database using SQL queries and adding more data to these tables. (All using Athena SQL.)
+
 ## Data Conformance and DBs
 
 [/data_conformance_and_dbs.ipynb]
