@@ -64,3 +64,10 @@ Uses aws wrangler, mojap-metadata and arrow-pd-parser to ensure conformance to a
 [etl_manager_migration.ipynb](etl_manager_migration.ipynb)
 
 How to use our tools to migrate etl-manager schemas to our Metadata schemas.
+
+
+## Create Temporary Tables
+
+[create_temporary_tables.ipynb](create_temporary_tables.ipynb)
+
+Simple demo as to how to create temporary athena tables using pydbtools
