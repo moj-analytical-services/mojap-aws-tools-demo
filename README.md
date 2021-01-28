@@ -2,7 +2,7 @@
 
 If there are more tutorials I am eager to put them all as notebooks in root rather than subfolders (each with its own env). Reason being is that each of these notebooks _should_ work with a standard set of requirements. If they don't, that should force us to update some of our packages (if there is a good reason why it should be different then we move to subfolders).
 
-To setup:
+## To setup
 
 If setting up on the analytical platform it is worth going through how to [setup an environment for the jupyterlab deployment](https://user-guidance.services.alpha.mojanalytics.xyz/tools.html#venv-and-pip).
 
@@ -29,7 +29,7 @@ The former is what I ran to setup my env at the time of running this and the lat
 
 ## Simple Database Creation and Manipulation
 
-[/simple_database_creation_manipulation.ipynb]
+[simple_database_creation_manipulation.ipynb](simple_database_creation_manipulation.ipynb)
 
 Get some data, create a database add that data as a table in a database. Get some more data add it to the existing table.
 
@@ -38,21 +38,21 @@ Great place to start if you don't know what Athena, Glue, S3 are and how they fi
 
 ## Using Athena SQL to maintain and update databases
 
-[/creating_and_maintaining_database_tables_in_athena.ipynb]
+[creating_and_maintaining_database_tables_in_athena.ipynb](creating_and_maintaining_database_tables_in_athena.ipynb)
 
 How to create new databases, add tables to a database using SQL queries and adding more data to these tables. (All using Athena SQL.)
 
 
 ## Updating DB with Deltas
 
-[/updating_db_with_deltas.ipynb]
+[updating_db_with_deltas.ipynb](updating_db_with_deltas.ipynb)
 
 Using these set of tools to maintain a database based on recieving regular deltas of data extracts. We demonstrate how to create a table of deltas followed by another set of tables that run a report off based on what the deltas looked like at a given date.
 
 
 ## Data Conformance and DBs
 
-[/data_conformance_and_dbs.ipynb]
+[data_conformance_and_dbs.ipynb](data_conformance_and_dbs.ipynb)
 
 This is a big indepth one, probably more for data engineers or people wanting to make sure their metadata is exact.
 
@@ -61,6 +61,6 @@ Uses aws wrangler, mojap-metadata and arrow-pd-parser to ensure conformance to a
 
 ## Migrate from etl-manager to Metadata
 
-[/etl_manager_migration.ipynb]
+[etl_manager_migration.ipynb](etl_manager_migration.ipynb)
 
 How to use our tools to migrate etl-manager schemas to our Metadata schemas.
