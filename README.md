@@ -4,6 +4,10 @@ If there are more tutorials I am eager to put them all as notebooks in root rath
 
 To setup:
 
+If setting up on the analytical platform it is worth going through how to [setup an environment for the jupyterlab deployment](https://user-guidance.services.alpha.mojanalytics.xyz/tools.html#venv-and-pip).
+
+Otherwise...
+
 ```
 python -m venv env
 source env/bin/activate
@@ -20,6 +24,7 @@ pip install -r requirements.txt
 
 The former is what I ran to setup my env at the time of running this and the latter is my frozen env just incase something changes or you want to recreate my setup exactly.
 
+
 # Tutorials
 
 ## Simple Database Creation and Manipulation
@@ -29,6 +34,20 @@ The former is what I ran to setup my env at the time of running this and the lat
 Get some data, create a database add that data as a table in a database. Get some more data add it to the existing table.
 
 Great place to start if you don't know what Athena, Glue, S3 are and how they fit together with our tools. Note what we run through here is the easiest way to put stuff together (it is not as airtight as using some of the other tools we use). However, it will get you most of the way there, so don't worry about it.
+
+
+## Using Athena SQL to maintain and update databases
+
+[/creating_and_maintaining_database_tables_in_athena.ipynb]
+
+How to create new databases, add tables to a database using SQL queries and adding more data to these tables. (All using Athena SQL.)
+
+
+## Updating DB with Deltas
+
+[/updating_db_with_deltas.ipynb]
+
+Using these set of tools to maintain a database based on recieving regular deltas of data extracts. We demonstrate how to create a table of deltas followed by another set of tables that run a report off based on what the deltas looked like at a given date.
 
 
 ## Data Conformance and DBs
