@@ -4,7 +4,7 @@ If there are more tutorials I am eager to put them all as notebooks in root rath
 
 ## To setup
 
-### Analytical Platform
+### Analytical Platform
 
 If setting up on the analytical platform it is worth going through how to [setup an environment for the jupyterlab deployment](https://user-guidance.services.alpha.mojanalytics.xyz/tools.html#venv-and-pip).
 
