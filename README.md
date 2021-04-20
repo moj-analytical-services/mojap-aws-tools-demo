@@ -4,7 +4,23 @@ If there are more tutorials I am eager to put them all as notebooks in root rath
 
 ## To setup
 
+### Analytical Platform
+
 If setting up on the analytical platform it is worth going through how to [setup an environment for the jupyterlab deployment](https://user-guidance.services.alpha.mojanalytics.xyz/tools.html#venv-and-pip).
+
+In terminal (make sure you are in the folder that you cloned this repo into):
+
+```
+python -m venv env
+source env/bin/activate
+python -m pip install pip==20.3.3
+python -m pip install -r platform-requirements.txt
+python -m ipykernel install --user --name="env" --display-name="mojap-aws-tools-demo"
+```
+
+Select one of the notebooks and then change the kernel to `moj-aws-tools-demo`. If it doesn't show straight away give Jupyter a few minutes to discover the new kernel. It should appear.
+
+### Not on AP
 
 Otherwise...
 
@@ -17,8 +33,6 @@ pip install --upgrade pip
 Finally do one of the following:
 
 ```
-pip install -r basic-requirements.txt
-# OR
 pip install -r requirements.txt
 ```
 
