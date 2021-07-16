@@ -85,3 +85,10 @@ How to use our tools to migrate etl-manager schemas to our Metadata schemas.
 [create_temporary_tables.ipynb](create_temporary_tables.ipynb)
 
 Simple demo as to how to create temporary athena tables using pydbtools
+
+
+## Using SQL Templating
+
+[sql_templating.ipynb](sql_templating.ipynb)
+
+Simple demo as to how to use SQL templating in pydbtools
