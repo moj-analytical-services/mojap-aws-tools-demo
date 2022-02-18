@@ -15,7 +15,7 @@ python -m venv env
 source env/bin/activate
 python -m pip install pip==20.3.3
 python -m pip install -r platform-requirements.txt
-python -m ipykernel install --user --name="env" --display-name="mojap-aws-tools-demo"
+python -m ipykernel install --user --name="mojap-aws-tools-demo" --display-name="mojap-aws-tools-demo"
 ```
 
 Select one of the notebooks and then change the kernel to `moj-aws-tools-demo`. If it doesn't show straight away give Jupyter a few minutes to discover the new kernel. It should appear.
