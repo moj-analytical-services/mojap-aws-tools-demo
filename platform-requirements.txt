@@ -1,5 +1,5 @@
-awswrangler==2.3.0
-pydbtools==4.0.0
+awswrangler==2.14.0
+pydbtools==5.1.0
 mojap-metadata[arrow, etl-manager]
 arrow-pd-parser
 ipykernel
