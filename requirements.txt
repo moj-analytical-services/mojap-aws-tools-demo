@@ -1,7 +1,6 @@
 pydbtools==5.1.0
 mojap-metadata[arrow, etl-manager]
 arrow-pd-parser
-arrow-pd-parser
 jupyterlab
 gluejobutils
 etl_manager
