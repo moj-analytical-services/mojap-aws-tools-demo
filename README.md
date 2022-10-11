@@ -92,3 +92,7 @@ Simple demo as to how to create temporary athena tables using pydbtools
 [sql_templating.ipynb](sql_templating.ipynb)
 
 Simple demo as to how to use SQL templating in pydbtools
+
+## Build a data ETL pipeline
+
+An example on how to build a data ETL pipeline on the Analytical Platform, transform the data using pyspark Glue jobs and expose the data to analytical tools such as Athena, along with some notes on best practices.
